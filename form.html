@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action="" class="formulario">
+        <h3>Formulario de contacto</h3>
+        <div>
+            <input class="controls" placeholder="ingresa tu nombre" name="nombre" type="text" required>
+            <input class="controls" placeholder="ingresa tu apellido" name="apellido" type="text" required>
+            <input class="controls" placeholder="ingresa tu dni" name="dni" type="number" required>
+            <input class="controls" placeholder="ingresa un email" name="email" type="email" required>
+            <input class="controls" placeholder="ingresa un número de telefono" name="telefono" type="tel" required>
+            <select class="sexo">
+                <option value="sexo">sexo</option>
+                <option value="masculina">Masculina</option>
+                <option value="femenina">Femenina</option>
+                <option value="otros">X</option>
+            </select>
+            <textarea class="comentario" cols="30" rows="10" placeholder="dejanos tu comentario" maxlength="250" required></textarea>
+            <button class="botons" type="submit">Enviar</button>
+    </form>
+    <footer class="footer">
+    <pre>  
+        Esta página cuyo autor es Jules Wikinby
+        Tel: 2615067018
+        Email: juleswikinby@gmail.com 
+    </pre> 
+</footer>
+<script src="./css/style.css"></script>
+</body>
+</html>

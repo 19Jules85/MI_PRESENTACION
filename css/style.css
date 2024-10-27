@@ -1,0 +1,139 @@
+/*  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+} */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+/*inicio de header*/
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+    margin-right: 10px;
+    float:right;
+}
+header {
+    width: 100%;
+   display: flex;
+   min-height: 100px;
+   background-color: rgb(50, 156, 147);
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   position: fixed;
+  
+}
+.logo1 {
+    width: 50px;
+    height: auto;
+}
+.buscador {
+    width: 10%;
+    border-radius: 5px;
+    height: 25px;
+    padding: auto;
+    margin-right: 10px;
+} 
+nav a {
+    font-weight: 600px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+nav a:hover {
+    color: gold;
+}
+/*inicio de section1*/
+section{
+    background-color: rgb(131, 207, 213);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.banner{
+    width: 80%;
+    height: calc(100vh - 112px);
+   /* background-color: blueviolet;
+    /*en el caso si tiene que poner una imagen*/
+    /*background-image: url(../img/banner.png);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    font-size: 56px;
+}
+.btn-banner{
+    background-color: rgb(164, 79, 79);
+    text-decoration: none;
+    padding: 16px 56px;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+}
+.btn-banner:hover{
+    background-color: beige;
+    color: black;
+    transition: 0.5s;
+}
+/*inicio de articulo*/
+.articulo{
+    width: 80%;
+    height: calc(100vh - 112px);
+    background-color: rgb(90, 157, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-articulo{
+    font-size: 32px;
+}
+.parafo-articulo{
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    flex-direction: row;
+
+}
+.imagenes{
+   width: 80%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   /*align-items: center;*/
+   background-color: rgb(43, 226, 211);
+   
+}
+.imagen1{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+.imagen2{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+.frase{
+    font-size: 32px;
+    text-align: justify;
+    flex-direction: row;
+}
+/*inicio de footer*/
+.footer{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    background-color: rgb(155, 159, 159);
+}
